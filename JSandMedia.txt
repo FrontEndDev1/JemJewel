@@ -1,0 +1,6 @@
+JavaScript locations and actions:
+First use is on the index page and it is an array of images that changes every 5 seconds.
+Second use is on the form confirmation page where it is used in a button to back to the previous page.
+
+Multimedia use and location:
+I used a video on the index page below the table

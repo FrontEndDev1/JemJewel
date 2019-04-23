@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Contact Us | Jemma's Jewels by Andrew Cessna</title>
+	<meta charset="utf-8">
+	<meta name="description" content="To get get in touch with us call or fill out and submit a contact forum.">
+	<meta name="author" content="Andrew Cessna">
+	<meta name="robots" content="noindex, follow">
+	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:700|Oleo+Script|Ramaraja|Teko:500" rel="stylesheet">
+	<link href='JemmasJewels.css' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+<!--HEADER AREA-->
+
+<header>
+<div class="topbar">
+<p>Free shipping for orders above $100 and for returns see <a href="ReturnPolicies.htm" class="toplink">our policies</a>.</p>
+</div>
+<div class="HeadNav">
+<a href="index.htm"><img class="logo" src="images/imageedit_1_6269977327.png" alt="Jemma's Jewels logo"></a>
+	<nav>
+		<ul class="navbar">
+			<li class="navbuttons"><a href="index.htm" class="navi">Home</a></li>
+			<li class="navbuttons"><a href="ProductsAndPrices.htm" class="navi">Gallery</a></li>
+			<li class="navbuttons"><a href="ReturnPolicies.htm" class="navi">Our&nbsp;Policies</a></li>
+			<li class="navbuttons"><a href="CompanyDirectory.htm" class="navi">Company&nbsp;Directory</a></li>
+			<li class="navbuttons"><a href="OurPartners.htm" class="navi">Our&nbsp;Partners</a></li>
+			<li class="navbuttons"><a href="AboutOurStore.htm" class="navi">The&nbsp;Experience</a></li>
+			<li class="navbuttons"><a href="ContactUs.htm" class="navi"><span>Contact&nbsp;Us</span></a></li>
+		</ul>
+	</nav>
+</div>
+</header>
+
+<!--MAIN AREA-->
+
+<div class="backgroundbox">
+<main>
+<h1 class="opg">Contact Us</h1>
+<div class="form">
+	<form name="contact" method="post" action="EmailComments.php">
+	
+		<input type="hidden" id="recipient" name="recipient" value="webdevteacher@gmail.com">
+		<input type="hidden" id="redirect" name="redirect" value="confirmation.htm">
+		<input type="hidden" id="subject" name="subject" value="Contact_Us_Comments">
+		<!--<input type="hidden" id="email" name="email" value="andrewjamescessna@gmail.com">-->
+
+		<label>Full Name</label>
+		<br>
+		<input type="text" name="Full_Name" placeholder="Enter your name here" class="texty" tabindex="1" required>
+
+	<br><br>
+
+		<label>Email</label>
+		<br>
+		<input type="email" name="email" placeholder="Enter your email here" size="25" class="texty" tabindex="2" required>
+
+	<br><br>
+
+		<label>Select Age Group</label>
+		<br>
+		<select name="Age_Group" size="1" tabindex="3" required>
+			<option value="" disabled selected>Select one...</option>
+			<option value="17_or_younger">17 or younger</option>
+			<option value="18-30">18-30</option>
+			<option value="31-50">31-50</option>
+			<option value="51_or_older">51 or older</option>
+		</select>
+		
+	<br><br>
+
+		<label>Select the jewelery you are interested in viewing:</label>
+		<br>
+		<input type="checkbox" name="JeweleryType-1" value="Rings" tabindex="4"><label>Rings</label>
+		<br>
+		<input type="checkbox" name="JeweleryType-2" value="Necklaces" tabindex="5"><label>Necklaces</label>
+		<br>
+		<input type="checkbox" name="JeweleryType-3" value="Earrings" tabindex="6"><label>Earrings</label>
+		<br>
+		<input type="checkbox" name="JeweleryType-4" value="Bracelets" tabindex="7"><label>Bracelets</label>
+		<br>
+		<input type="checkbox" name="JeweleryType-5" value="Other" tabindex="8"><input type="text" name="If_Other" size="6" placeholder="Other..." tabindex="9">
+
+	<br><br>
+		
+		<label>Do you want to sign up for our newsletter?</label>
+		<br>
+		<label>Yes</label>
+		<input type="radio" name="newsletter" value="yes" tabindex="10" checked>
+		<label>No</label>
+		<input type="radio" name="newsletter" value="no" tabindex="11">
+
+	<br><br>
+
+		<label>Comments</label>
+		<br>
+		<textarea name="comments" cols="50" rows="10" placeholder="Please leave a comment..." tabindex="12" required></textarea>
+		
+	<br><br>
+		
+		<input type="submit" value="Submit" tabindex="13">
+
+	</form>
+</div>
+</main>
+</div>
+
+<!--FOOTER AREA-->
+
+<footer class="footerrules">
+	<p class="footerfont">Copyright &copy; 2018 Jemma's Jewels | Andrew Cessna | All Rights Reserved.</p>
+	<p><a href="index.htm" class="footerlinks">Home</a> | <a href="ProductsAndPrices.htm" class="footerlinks">Gallery</a> | <a href="ReturnPolicies.htm" class="footerlinks">Our&nbsp;Policies</a> | <a href="CompanyDirectory.htm" class="footerlinks">Company&nbsp;Directory</a> | <a href="OurPartners.htm" class="footerlinks">Our&nbsp;Partners</a> | <a href="AboutOurStore.htm"  class="footerlinks">The&nbsp;Experience</a> | <a href="ContactUs.htm"  class="footerlinks">Contact&nbsp;Us</a></p>
+</footer>
+
+</body>
+
+</html>

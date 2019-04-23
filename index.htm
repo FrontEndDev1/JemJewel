@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Home | Jemma's Jewels by Andrew Cessna</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Welcome to the home of Jemma's Jewels. We carry gemstone all varieties, of all shapes, and all sizes and if the gemstone is not the shape of size you want it we will cut it for you!">
+	<meta name="author" content="Andrew Cessna">
+	<meta name="robots" content="noindex, follow">
+	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:700|Oleo+Script|Ramaraja|Teko:500" rel="stylesheet">
+	<link href='JemmasJewels.css' rel='stylesheet' type='text/css'>
+<script>
+
+var i = 0; 			// Start Point
+var images = [];	// Images Array
+var time = 6000;	// Time Between Switch
+	 
+// Image List
+images[0] = "images/dreamcatcher-pendant-necklace_925x.jpg";
+images[1] = "images/couple-embraces_925x.jpg";
+images[2] = "images/anne-edgar-119373-unsplash.jpg";
+
+// Change Image
+function changeImg(){
+	document.slide.src = images[i];
+
+	// Check If Index Is Under Max
+	if(i < images.length - 1){
+	  // Add 1 to Index
+	  i++; 
+	} else { 
+		// Reset Back To O
+		i = 0;
+	}
+
+	// Run function every x seconds
+	setTimeout("changeImg()", time);
+}
+
+// Run function when page loads
+window.onload=changeImg;
+
+</script>
+</head>
+
+<body>
+
+<!--HEADER AREA-->
+
+<header>
+<div class="topbar">
+<p>Free shipping for orders above $100 and for returns see <a href="ReturnPolicies.htm" class="toplink">our policies</a>.</p>
+</div>
+<div class="HeadNav">
+<a href="index.htm"><img class="logo" src="images/imageedit_1_6269977327.png" alt="Jemma's Jewels logo"></a>
+	<nav>
+		<ul class="navbar">
+			<li class="navbuttons"><a href="index.htm" class="navi"><span>Home</span></a></li>
+			<li class="navbuttons"><a href="ProductsAndPrices.htm" class="navi">Gallery</a></li>
+			<li class="navbuttons"><a href="ReturnPolicies.htm" class="navi">Our&nbsp;Policies</a></li>
+			<li class="navbuttons"><a href="CompanyDirectory.htm" class="navi">Company&nbsp;Directory</a></li>
+			<li class="navbuttons"><a href="OurPartners.htm" class="navi">Our&nbsp;Partners</a></li>
+			<li class="navbuttons"><a href="AboutOurStore.htm" class="navi">The&nbsp;Experience</a></li>
+			<li class="navbuttons"><a href="ContactUs.htm" class="navi">Contact&nbsp;Us</a></li>
+		</ul>
+	</nav>
+</div>
+</header>
+
+<!--MAIN AREA-->
+
+<div class="slidebox">
+<img class="slideimg" name="slide" />
+</div>
+<div class="backgroundbox">
+<main>
+	
+	<div>
+	<table class="products">
+		<tr class="pad">
+		 <td><img src="images/engagering.jpg" alt="A white gold ring set with a diamond" class="Gallery"></td>
+		 <td class="idbr1"><p>"Central Florida's Luxury Jeweler"</p>
+		 <p class="h1title">Come anytime and see our showroom or set an appointment to see jewelery specially picked for you.</p></td> 
+		</tr>
+		<tr class="pad">
+		 <td class="idbr2"><p>"We Size Diamonds"</p>
+		 <p class="h1title">If you need a diamond resized come in and we will have our experts resize or reshape your diamond.</p></td>
+		 <td><img src="images/diamond.jpg" alt="A pile of large diamonds" class="Gallery"></td> 
+		</tr>
+		<tr class="pad">
+		 <td><img src="images/love.jpg" alt="A couple holding hands holding tiles spelling love and also holding a ring" class="Gallery"></td>
+		 <td class="idbr3"><p>"Getting Married?"</p>
+		 <p class="h1title">If you need help picking the right ring set an appointment with one of our top rated jewelers.</p></td> 
+		</tr>
+	</table>
+	</div>
+	
+	<div>
+		<video autoplay loop controls>
+		<source src="images/diamodvid2.mp4" type="video/mp4">
+		</video>
+	</div>
+
+</main>
+</div>
+
+<!--FOOTER AREA-->
+
+<footer class="footerrules">
+	<p class="footerfont">Copyright &copy; 2018 Jemma's Jewels | Andrew Cessna | All Rights Reserved.</p>
+	<p><a href="index.htm" class="footerlinks">Home</a> | <a href="ProductsAndPrices.htm" class="footerlinks">Gallery</a> | <a href="ReturnPolicies.htm" class="footerlinks">Our&nbsp;Policies</a> | <a href="CompanyDirectory.htm" class="footerlinks">Company&nbsp;Directory</a> | <a href="OurPartners.htm" class="footerlinks">Our&nbsp;Partners</a> | <a href="AboutOurStore.htm"  class="footerlinks">The&nbsp;Experience</a> | <a href="ContactUs.htm"  class="footerlinks">Contact&nbsp;Us</a></p>
+</footer>
+
+</body>
+
+</html>

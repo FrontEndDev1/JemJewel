@@ -1,0 +1,215 @@
+/*	Default font and color:
+*	{color: black;
+	font-family: sans;
+	font-size: 18px;}*/
+
+
+
+/*Main body and Background box style*/
+div.backgroundbox {
+	/*display: inline-block;*/
+	margin: .1% 15%;
+	box-sizing: content-box;
+	padding: 5.5%;}
+/*body text and background image*/
+body {background-color: #ffffff;
+	margin:0;
+	color: black;
+	text-align: left;
+	font-family: sans;
+	font-size: 18px;}
+	
+	
+/*Index.htm divs
+div.topright {float:right; margin:0 3em 3em 3em; border:2px solid black;}
+div.topleft {float:left; margin:3em 3em 3em 0; border:2px solid black;}
+div.middleright {float:right; margin:0 3em 3em 3em; border:2px solid black;}
+div.middleleft {float:left; margin:3em 3em 3em 0; border:2px solid black;}
+div.bottomright {float:right; margin:0 3em 3em 3em; border:2px solid black;}
+div.bottomleft {float:left; margin:3em 3em 3em 0; border:2px solid black;}*/
+img.slideimg {width:100%; max-height:800px;}
+div.slidebox {padding:0 1em 0 1em; border-top: 20px solid gray; max-height: 100%;}
+video {width: 100%;}
+	
+
+/*About us main text*/
+div.mainpageparagraph {line-height:2em; /*width:60ch;*/ margin:auto;}
+
+
+
+/*Logo image*/
+img.logo {max-width:100%; margin:auto; display:block;}
+
+
+
+/*Navigation bar styles*/
+nav {text-align:center; font-weight: bold; font-family: 'Teko', sans-serif; font-size:1.5em;}
+ul.navbar {list-style-type:none; padding: 0;}
+li.navbuttons {display:inline; width:10px; margin:auto;}
+a.navi {text-decoration: none; padding:8px; margin:8px;}
+a:link.navi {color: black;}
+a:visited.navi {color: black;}
+a:hover.navi {color: #2954d4;}
+a:active.navi {color: red;}
+span {border-bottom:5px solid black; border-bottom-style:dotted;}
+/*header and navbar background*/
+div.HeadNav 
+	{max-width: 100%;
+	border:0.5em solid #e8e8e8;
+	background-color: #e8e8e8;
+	right:0;
+	left:0;
+	top:0;}
+div.topbar 
+	{max-width: 100%;
+	border:0.02px solid #4e4e4e;
+	background-color: #4e4e4e;
+	right:0;
+	left:0;
+	top:0;
+	color:white;
+	text-align:center;}
+a:link.toplink  {color:white; text-decoration: underline;}
+a:visited.toplink  {color:white;}
+a:hover.toplink {color: #d8d8d8; text-decoration: none;}
+	
+
+/*site images*/
+img.page {float:right; padding:10px;}
+img.return {border:2px solid black; max-width:100%; margin:auto;}
+img.opp {float:right; border:2px solid black;}
+
+
+
+/*The horizontal ruler before the footer*/
+hr.bottomruler {margin-top: 5em;}
+/*Copyright footer*/
+p.footerfont 
+	{font-style: italic;}
+footer.footerrules 
+	{background: #717171;
+    display: block;
+    bottom: 0;
+    text-align: center;
+    padding: 3em;
+    color: #d8d8d8;
+    font-size: 0.8em;
+    padding-bottom: 8em;
+    margin-top: 5em;
+	clear: both;}
+/*Footer links*/
+a:link.footerlinks  {color:#d8d8d8;}
+a:visited.footerlinks  {color:#d8d8d8;}
+a:hover.footerlinks {color:#2494ff;}
+
+
+
+/*General link rules*/
+a {text-decoration: none;}
+a:link {color: black;}
+a:visited {color: black;}
+a:hover {color: #2954d4;}
+a:active {color: red;}
+
+
+
+/*Box around return policies*/
+div.PoliciesBorder 
+	{display: -webkit-box;
+	box-sizing: content-box;
+	padding: 1em;    
+    border:2px solid black;
+	background-color: white;
+	margin-top:1em;}
+div.polpic 
+	{max-width:100%; 
+	margin:auto; 
+	padding-left:35%;}
+
+	
+	
+/*Rules for our partner links*/
+li.PartnerLinks {padding-bottom:3em; display:inline;}
+ul.OurPartnersLinksList
+	{text-align:center; 
+	width:100%;
+	margin:auto;
+	list-style-type:none;
+	padding:0;}
+div.pl {padding: 3em}
+img.plimg {padding: 0 1.5em 1.5em 1.5em;}
+
+	
+	
+/*rules for company directory*/
+dl.CompanyDirectoryList 
+	{text-align: left; 
+	max-width:30ch; 
+	padding-left:5.5em;}
+	
+	
+/*The Experience page*/
+h2.showroom {font-family: 'Cormorant Garamond', serif; font-style:italic;}
+
+
+
+/*Rules for contact and confirm*/
+div.form 
+	{border: 2px solid black;
+    padding: 2em;
+	background-color: #fcfcfc;}
+input.texty, select, textarea 
+	{width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;}
+input[type=submit] 
+	{background-color:#7096ba;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;}
+input[type=submit]:hover {background-color:#717171;}
+main.ty
+	{border: 2px solid black;
+    padding: 2em;
+	background-color: #fcfcfc;}
+p.thanks {width:80ch;}
+button
+	{background-color:#67889f;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	max-width:100%;
+	margin:auto;}
+
+
+
+	
+/*rules for the products table*/
+table.products 
+	{text-align: center; 
+	max-width:150ch; 
+	margin:auto;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size:1.5em;
+	padding-bottom:2em;
+	/*width:302px;*/}
+/*tr, th, td {}*/
+h1.opg {text-align:center; padding-bottom:2.5em; font-family:'Cormorant Garamond', serif; font-size:3em;}
+td.idbr1 {background-color:#AED6FF;}
+td.idbr2 {background-color:#FFCAAE;}
+td.idbr3 {background-color:#FFF2AE;}
+/*tr.pad {padding-bottom:4em;}*/
+p.h1title {font-family: sans; font-size: 18px; text-align:center;}
+@media screen and (max-width:  1200px) 
+{.disappear {display:none;}}
+@media screen and (min-width:  1201px) 
+{tr.tablebreak {display:none;}}

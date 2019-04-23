@@ -1,0 +1,373 @@
+Photo by <a href="https://burst.shopify.com/@sarahpflugphoto?utm_campaign=photo_credit&amp;utm_content=Free+Stock+Photo+of+Pink+Hearts+Background+%E2%80%94+HD+Images&amp;utm_medium=referral&amp;utm_source=credit">Sarah Pflug</a> from <a href="https://burst.shopify.com/valentines-day?utm_campaign=photo_credit&amp;utm_content=Free+Stock+Photo+of+Pink+Hearts+Background+%E2%80%94+HD+Images&amp;utm_medium=referral&amp;utm_source=credit">Burst</a>
+	background: white;
+    margin: -8px 5px 0 -5px;
+    border-width: 0 3px 3px 0;
+    border-style: solid;
+    border-color: #f00;
+    padding: 8em 5em 5em 8em;
+	
+	
+	width: 300px;
+    height: 100px;
+	
+	border: 2px solid black;
+	border-radius: 2em; 
+	border-color: white;
+	padding-right: 8em;
+	padding-left: 8em;
+	
+	width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+	
+	background-position: auto; 
+    background-repeat: ;
+    padding-left: 40px;
+	
+	border-radius: 2em; 
+	box-sizing: content-box;
+    width: 30%;
+	padding: 5%;    
+    border:0.5em solid white;
+	background-color: white;
+	
+	images/dreamcatcher-pendant-necklace_925x.jpg
+	
+	background-image: url('images/pink-hearts-background_925x.jpg');
+	
+	art-background-blue-268415
+	
+	background-color: #8bcafb;
+	
+	margin-left: 6em;
+    display: block;
+    max-width: 50%;
+    padding: 10px;
+	
+	margin-left: 6em;
+	padding: 10px;
+	max-width: 50%;
+	position: relative;
+    margin-left: -(X/2)px;
+    margin-top: -(Y/2)px;
+	
+	blurred-background-close-up-flowers-818649 
+	
+	<!--Background photo by <a href="https://burst.shopify.com/@sarahpflugphoto?utm_campaign=photo_credit&amp;utm_content=Free+Stock+Photo+of+Pink+Hearts+Background+%E2%80%94+HD+Images&amp;utm_medium=referral&amp;utm_source=credit">Sarah Pflug</a> from <a href="https://burst.shopify.com/valentines-day?utm_campaign=photo_credit&amp;utm_content=Free+Stock+Photo+of+Pink+Hearts+Background+%E2%80%94+HD+Images&amp;utm_medium=referral&amp;utm_source=credit">Burst</a>-->
+	
+	background-image: url('images/simone-hutsch-674418-unsplash.jpg');
+	
+	<div class="runner-container" style="width: 397.625px; height: 150px;"><canvas class="runner-canvas" width="397" height="150" style="width: 397px; height: 150px;"></canvas></div>
+	
+	background-size: cover; 
+	background-attachment:fixed;
+	background-repeat:round;
+	
+	<header>
+	<h1><a href="index.htm" class="LogoTitle">Jemma's Jewels</a></h1>
+	<h2>"Central Florida's Luxury Jeweler"</h2>
+	</header>
+	
+	margin:auto; display:block; max-width:100%;
+	
+	/*Jemma's jewels header and link*/
+	h1 {color: #11456e;
+	text-align: center;
+	font-style: italic;
+	font-family: "Baskerville Old Face";}
+	a:link.LogoTitle  {color: #2494ff;}
+	a:visited.LogoTitle  {color: #2494ff;}
+	a:hover.LogoTitle {color: #2494ff;}
+	/*headings 2,3,4*/
+	h2 {color: #2954d4;
+	text-align: center;
+	font-family: "Brush Script MT";
+	font-style: italic;
+	font-size:5em;}
+	h3, h4 {text-align: center;}
+	
+	'Oleo Script', cursive
+	
+	<!--<div class="topright">
+<p>"Central Florida's Luxury Jeweler"</p>
+<p>Come anytime and see our showroom or set an appointment to see jewelery specially picked for you.</p>
+</div>
+<div class="topleft">
+<p>"Central Florida's Luxury Jeweler"</p>
+<p>Come anytime and see our showroom or set an appointment to see jewelery specially picked for you.</p>
+</div>
+<div class="middleright">
+<p>"Central Florida's Luxury Jeweler"</p>
+<p>Come anytime and see our showroom or set an appointment to see jewelery specially picked for you.</p>
+</div>
+<div class="middleleft">
+<p>"Central Florida's Luxury Jeweler"</p>
+<p>Come anytime and see our showroom or set an appointment to see jewelery specially picked for you.</p>
+</div>
+<div class="bottomright">
+<p>"Central Florida's Luxury Jeweler"</p>
+<p>Come anytime and see our showroom or set an appointment to see jewelery specially picked for you.</p>
+</div>
+<div class="bottomleft">
+<p>"Central Florida's Luxury Jeweler"</p>
+<p>Come anytime and see our showroom or set an appointment to see jewelery specially picked for you.</p>
+</div>-->
+	
+	
+	
+	
+	
+	images[0] = 'images/dreamcatcher-pendant-necklace_925x.jpg';
+	images[1] = 'images/couple-embraces_925x.jpg';
+	images[2] = 'images/anne-edgar-119373-unsplash.jpg';
+	
+	
+	
+	
+	
+	
+	<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Menu | The Fatted Pig</title>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="author" content="Andrew Cessna">
+	<meta name="robots" content="noindex, follow">
+	<link href='thefattedpig.css' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Unlock" rel="stylesheet">
+
+<script>
+var slideIndex = 1;
+window.onload = startUp;
+
+function startUp() {
+showSlides(slideIndex);
+var slideIndex = 0;
+showSlides();
+}
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+} 
+
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1} 
+    slides[slideIndex-1].style.display = "block"; 
+    setTimeout(showSlides, 6000); // Change image every 2 seconds
+} 
+</script>
+	
+</head>
+
+<body>
+
+<!--HEADER AREA-->
+
+<header>
+<div class="HeadNav">
+
+	<nav>
+		<ul class="navbar">
+			<li class="navbuttons"><a href="index.htm" class="navi">Home</a></li>
+			<li class="navbuttons"><a href="menu.htm" class="navi">Menu</a></li>
+			<li class="navbuttons"><a href="location.htm" class="navi">Location</a></li>
+			<li class="navbuttons"><a href="contactus.htm" class="navi">Contact</a></li>
+			<li class="navbuttons"><a href="ourstory.htm" class="navi">Our&nbsp;Story</a></li>
+		</ul>
+	</nav>
+</div>
+</header>
+
+<!--MAIN AREA-->
+
+<main>
+<div class="menimg">
+
+<div class="mySlides fade">
+    <img src="images/original_1.jpg" class="wit">
+</div>
+  
+<div class="mySlides fade">
+    <img src="images/67b54315-f702-42ec-bc4d-385966e03566.jpg" class="wit">
+</div>
+
+<div class="mySlides fade">
+    <img src="images/9593a71e-9560-49ff-9d80-48b8a0acf974.jpg" class="wit">
+</div>
+</div>
+
+<div class="menuarea">
+<h1 style="padding-bottom:1em; font-size: 3em;">Menu</h1>
+
+<div class="food">
+<label>Appetizers</label>
+<dl>
+  <dt>Shamrock Chips</dt>
+  <dd>Baguettes w/ melted Irish white cheddar topped with basil</dd>
+  <dt>Corned Beef and Cabbage Rolls</dt>
+  <dd>Grilled corned beef wrapped in steamed peppered cabbage</dd>
+  <dt>Patty O's Potato Cakes</dt>
+  <dd>Golden deep fried potato cakes</dd>
+</dl>
+</div>
+
+<div class="food">
+<label>Entrées</label>
+<dl>
+  <dt>Pulled Porker</dt>
+  <dd>One heaping pound of pulled pork that has been smoked in BBQ sauce for 13 hours</dd>
+  <dt>Fish n' Chips</dt>
+  <dd>Batter and fried Haddock served with a side of fries</dd>
+  <dt>Corned Beef n' Cabbage</dt>
+  <dd>Broiled corned beef with pickled and steamed peppered cabbage served with boiled potatoes</dd>
+  <dt>Saoirse's Homemade Irish Stew</dt>
+  <dd>Made with lamb, bacon and cabbage with potatoes, sausage, bacon, and mashed potato, kale or cabbage, and butter</dd>
+</dl>
+</div>
+
+<div class="food">
+<label>Sandwiches</label>
+<dl>
+  <dt>Irish Beer Burger</dt>
+  <dd>Delicious, juicy beer burger made with Guinness caramelized onions, Swiss cheese, and crispy bacon, all on a potato roll!</dd>
+  <dt>Burger Breakfast Royal</dt>
+  <dd>Angus topped with a fried egg, bacon, American cheese, and our fiery whiskey hot sauce</dd>
+  <dt>The Stuffed Stack</dt>
+  <dd>A monster Angus beef burger topped off with our signature pulled pork and fried onions</dd>
+</dl>
+</div>
+
+<div class="food">
+<label>Kids Menu</label>
+<dl>
+  <dt>Hot Diggity Dog</dt>
+  <dd>Kids hot dog covered in melted Irish white cheddar</dd>
+  <dt>The Mini Stacker</dt>
+  <dd>Like the stuffed stack, only smaller!</dd>
+  <dt>Fish n' Nips</dt>
+  <dd>Battered cod w/ mini potato rounds</dd>
+</dl>
+</div>
+
+<div class="food">
+<label>Beverages</label>
+<dl>
+  <dt>Guinness Irish Wheat</dt>
+  <dd>Classic Irish ale</dd>
+  <dt>Our Craft Beers</dt>
+  <dd>Ask the bartender what beers we have on tap</dd>
+  <dt>Baileys Irish Cream</dt>
+  <dd>Baileys is a cream-based Irish whiskey</dd>
+</dl>
+</div>
+
+
+</div>
+</main>
+
+<!--FOOTER AREA-->
+
+<footer class="foot">
+	<p class="ftcp">Copyright &copy; 2018 The Fatted Pig | Andrew Cessna | All Rights Reserved.</p>
+</footer>
+
+</body>
+
+</body>
+
+</html>
+	
+	/*Rules for contact and confirm*/
+div.form 
+	{border: 2px solid black;
+    padding: 2em;
+	background-color: #fcfcfc;}
+input.texty, select, textarea 
+	{width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;}
+input[type=submit] 
+	{background-color:#7096ba;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;}
+input[type=submit]:hover {background-color:#717171;}
+main.ty
+	{border: 2px solid black;
+    padding: 2em;
+	background-color: #fcfcfc;}
+p.thanks {width:80ch;}
+button
+	{background-color:#67889f;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	max-width:100%;
+	margin:auto;}
+	
+	
+	
+	
+	
+	
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="author" content="Andrew Cessna">
+	<meta name="robots" content="noindex, follow">
+	<link href='.css' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+</body>
+
+</html>
